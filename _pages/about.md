@@ -1,25 +1,27 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile-cropped.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+# <p>555 your office number</p>
+# <p>123 your address street</p>
+# <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi 👋, I am a third (final) year Ph.D. Candidate, advised by [Prof. Byunghoon Kim](https://sites.google.com/hanyang.ac.kr/bigdataanalyticslab/people?authuser=0) in the [Big Data Analytics Lab](https://sites.google.com/hanyang.ac.kr/bigdataanalyticslab/home), Dept. of Industrial & Management Engineering at Hanyang University, South Korea.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests broadly lie in **Computer Vision (CV)**, **Deep Learning (DL)**, and **Machine Learning (ML)** algorithms. Currently, I am focused in researching on computer vision problems like object detection, recognition, segmentation. Additoinally, I have a keen interest in **Multimodal AI**, exploring the integration of vision and language, with particular interests in image captioning and visual question answering.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, I have been researching and working on **Network Science**, **Graph Mining**, **Data Mining**, and **Applied Machine Learning**, specifically focusing on modeling large inter-connected complex networks, including financial transactions and social networks.
+
+Apart from research, I like 📷 photography, 🏔️ hiking and ✈️ travelling to new places and thankfully they go together 😅. Thank you for your time reading this far. Wish you have a nice day ahead ❤️.

@@ -1,5 +1,18 @@
+{% comment %} CV Icon {% endcomment %}
+{% if site.cv_link %}
+  <a href="{{ site.cv_link }}" title="CV"><i class="ai ai-cv-square"></i></a>
+{% endif %}
+
+{% if site.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
+{% endif %}
+
+{% if site.github_username %}
+  <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+{% endif %}
+
 {% if site.email %}
-  <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
+  <a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
 {% if site.telegram_username %}
   <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a>
@@ -10,9 +23,7 @@
 {% if site.orcid_id %}
   <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
 {% endif %}
-{% if site.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-{% endif %}
+
 {% if site.inspirehep_id %}
   <a href="https://inspirehep.net/authors/{{ site.inspirehep_id }}" title="Inspire HEP"><i class="ai ai-inspire"></i></a>
 {% endif %}
@@ -40,9 +51,7 @@
 {% if site.scopus_id %}
   <a href="https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}" title="Scopus"><i class="ai ai-scopus"></i></a>
 {% endif %}
-{% if site.github_username %}
-  <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
-{% endif %}
+
 {% if site.linkedin_username %}
   <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
 {% endif %}
