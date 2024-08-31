@@ -15,6 +15,12 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<h3 style="margin-top: 2em;">Publications In-Progress</h3>
+
+{% bibliography --query @*[inprogress=true]* %}
+
+<h3 style="margin-top: 2em;">Published Publications</h3>
+
+{% bibliography --query @*[selected=true]* %}
 
 </div>
