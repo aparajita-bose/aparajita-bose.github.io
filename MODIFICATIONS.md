@@ -67,3 +67,24 @@ Can be disabled by setting `announcements.enabled` to `false` in `_config.yml` [
 ## Adding CV Icon
 
 https://jpswalsh.github.io/academicons/
+
+## Obfuscate Email
+
+Email in social icons is added [here](https://github.com/aparajita-bose/aparajita-bose.github.io/blob/master/_includes/social.liquid#L15) and encoded with [jekyll-email-protect](https://github.com/vwochnik/jekyll-email-protect).
+
+Alternative ways:  
+* https://spencermortensen.com/articles/email-obfuscation/#text-display
+* https://stackoverflow.com/a/11563565
+
+<!-- Feel free to connect with me at: **aparajitabose.cs [at] gmail [dot] com** -->
+
+## Publications
+
+All publications are defined in [papers.bib](./_bibliography/papers.bib).
+
+If you are adding new bibtext, check the following fields:
+- Add `selected={true}` to be shown on website
+- Add `url={...}` to make it clickable
+- Add `inprogress={true}` if the paper needs to be shown under `Publication In-Progress` section
+
+Publications on About page are defined in [about.liquid](https://github.com/aparajita-bose/aparajita-bose.github.io/blob/master/_layouts/about.liquid#L73-L84) and calls [publications_in_progress.liquid](https://github.com/aparajita-bose/aparajita-bose.github.io/blob/master/_includes/publications_in_progress.liquid) to render `Publications In-Progress` and [selected_papers.liquid](https://github.com/aparajita-bose/aparajita-bose.github.io/blob/master/_includes/selected_papers.liquid) to render `Publications` section.
