@@ -21,3 +21,7 @@ Now to run the website:
 docker compose up
 ```
 If all runs successfully, the website should be running at http://localhost:8080
+
+## Issues
+
+See [ISSUES](./ISSUES.md)
