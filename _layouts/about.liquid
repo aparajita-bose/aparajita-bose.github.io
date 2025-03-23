@@ -72,15 +72,29 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 style="margin-top: 1em;">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications In-Progress </a>
-      </h2>
-      {% include publications_in_progress.liquid %}
+      <div style="margin-top: 1em;">
 
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications </a>
-      </h2>
-      {% include selected_papers.liquid %}
+        <div>
+          {% comment %} Publications section (already published) {% endcomment %}
+          <h2>
+            <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications </a>
+          </h2>
+          {% include selected_papers.liquid %}
+        </div>
+
+        <div>
+          {% comment %} Publications in progress (submitted articles to be published) {% endcomment %}
+          <h2>
+            <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications In-Progress </a>
+          </h2>
+
+          {% comment %} <div class="tenor-gif-embed" data-postid="21480115" data-share-method="host" data-aspect-ratio="1.78771" data-width="20%"><a href="https://tenor.com/view/appurajosh-appu-gif-21480115">Appurajosh Appu GIF</a>from <a href="https://tenor.com/search/appurajosh-gifs">Appurajosh GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> {% endcomment %}
+
+          {% include publications_in_progress.liquid %}
+        </div>
+
+      </div>
+
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
