@@ -20,6 +20,10 @@ Now to run the website:
 ```
 docker compose up
 ```
+and if error happens due to cached container, try:
+```
+docker compose up --build
+```
 If all runs successfully, the website should be running at http://localhost:8080
 
 ## Issues
