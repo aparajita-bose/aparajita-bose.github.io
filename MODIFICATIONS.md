@@ -1,6 +1,15 @@
 
 # Modification Notes
 
+## Quickstart
+
+```
+docker compose pull
+docker compose up
+```
+
+For more details, see: https://github.com/alshedivat/al-folio/blob/master/INSTALL.md#local-setup-using-docker-recommended
+
 ## Project Structure
 [_config.yml](./_config.yml) contains base configurations.
 
@@ -9,7 +18,6 @@
 **Navigation Bar** is rendered by [./_includes/header.liquid](./_includes/header.liquid).
 
 **About page** is rendered by [./_layouts/about.liquid](./_layouts/about.liquid).
-
 
 **Footer** is rendered by [./_includes/footer.liquid](./_includes/footer.liquid).
 
